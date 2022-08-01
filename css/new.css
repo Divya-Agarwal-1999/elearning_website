@@ -1,0 +1,66 @@
+.course {
+	display: grid;
+	justify-content: center;
+}
+
+.cbox {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.cbox .det {
+	height: 60px;
+	margin: 10px;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 50px;
+}
+.cbox .det a{
+	justify-content: space-around;
+	width: 100%;
+	padding: 20px;
+	border-radius: 50px;
+	border: 1px solid #FA4B37;
+	font-size: 15px;
+	color: #272529;
+	font-family: cursive;
+	text-decoration: none;
+}
+
+.cbox .det a:hover{
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+	color: white;
+}
+
+.inbt {
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	color: #2E3D49;
+	margin: 100px;
+	margin-bottom: 50px;
+}
+.vidu{
+    margin-top:250px;
+
+}
+
+/*Title*/
+.title2 {
+	position: relative;
+	padding-top: 150px;
+	margin-left: 100px;
+}
+.title2 span{
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	color: #2E3D49;
+}
+.title2 .shortdesc2 {
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #2E3D49;
+	margin-bottom: 10px;
+}
